@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="1000" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#132829"/>
+    <stop offset="0.55" stop-color="#173A3A"/>
+    <stop offset="1" stop-color="#0E2222"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#EEF5EC"/>
+    <stop offset="1" stop-color="#D7E6DD"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#DDF980"/>
+    <stop offset="1" stop-color="#7EE0D4"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="40" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="1000" rx="40" fill="url(#bg)"/>
+<circle cx="1320" cy="160" r="220" fill="#DDF980" opacity="0.08" filter="url(#glow)"/>
+<circle cx="1240" cy="810" r="260" fill="#6EE7E7" opacity="0.08" filter="url(#glow)"/>
+<g opacity="0.18">
+  <path d="M70 130H1530" stroke="#DDF980" stroke-dasharray="5 12"/>
+  <path d="M70 870H1530" stroke="#DDF980" stroke-dasharray="5 12"/>
+  <path d="M170 60V940" stroke="#A7D8C5" stroke-dasharray="5 12"/>
+  <path d="M1430 60V940" stroke="#A7D8C5" stroke-dasharray="5 12"/>
+</g>
+<text x="95" y="110" fill="#F0F5EC" font-family="Arial, sans-serif" font-size="28" letter-spacing="6">EDUGEN / EXAM PROCTORING</text>
+<text x="95" y="900" fill="#AFC3B7" font-family="Arial, sans-serif" font-size="24" letter-spacing="4">COMPUTER VISION · FAIR ASSESSMENT · AUTOMATED WARNINGS</text>
+<rect x="90" y="165" width="1030" height="640" rx="34" fill="#102223" stroke="#3C5E5F" stroke-width="2"/>
+<rect x="130" y="205" width="950" height="65" rx="18" fill="#183536"/>
+<circle cx="177" cy="237" r="8" fill="#FF8579"/><circle cx="207" cy="237" r="8" fill="#FFCC78"/><circle cx="237" cy="237" r="8" fill="#92D18B"/>
+<text x="300" y="246" fill="#D6E6DB" font-family="Arial, sans-serif" font-size="24" letter-spacing="3">LIVE MONITORING SESSION</text>
+<rect x="140" y="300" width="560" height="420" rx="26" fill="url(#panel)"/>
+<rect x="725" y="300" width="335" height="200" rx="26" fill="#EFF6ED"/>
+<rect x="725" y="520" width="335" height="200" rx="26" fill="#EFF6ED"/>
+<rect x="760" y="335" width="170" height="30" rx="10" fill="#173536"/>
+<text x="782" y="356" fill="#F8FCF9" font-family="Arial, sans-serif" font-size="18" font-weight="bold">EVENT DETECTION</text>
+<rect x="760" y="383" width="265" height="32" rx="12" fill="#FFE5D9"/>
+<circle cx="782" cy="399" r="8" fill="#FF7E59"/><text x="804" y="405" fill="#5C4036" font-family="Arial, sans-serif" font-size="18">Head turned away</text>
+<rect x="760" y="428" width="265" height="32" rx="12" fill="#FFF4CF"/>
+<circle cx="782" cy="444" r="8" fill="#EAB308"/><text x="804" y="450" fill="#5B4F28" font-family="Arial, sans-serif" font-size="18">Another person detected</text>
+<rect x="760" y="573" width="170" height="30" rx="10" fill="#173536"/>
+<text x="785" y="594" fill="#F8FCF9" font-family="Arial, sans-serif" font-size="18" font-weight="bold">INTEGRITY SCORE</text>
+<path d="M785 660C825 590 930 590 970 660" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
+<circle cx="878" cy="660" r="12" fill="#F6FFF7" stroke="#173536" stroke-width="4"/>
+<text x="842" y="700" fill="#173536" font-family="Arial, sans-serif" font-size="48" font-weight="bold">82%</text>
+<text x="785" y="733" fill="#677A71" font-family="Arial, sans-serif" font-size="18">Flags are reviewed, not final proof.</text>
+<rect x="980" y="95" width="460" height="96" rx="24" fill="#E8F7D0"/>
+<text x="1020" y="138" fill="#173536" font-family="Arial, sans-serif" font-size="23" letter-spacing="3">MY ROLE / COMPUTER VISION PROCTORING</text>
+<text x="1020" y="170" fill="#567069" font-family="Arial, sans-serif" font-size="22">Movement analysis, presence checks, and warning logic</text>
+<g transform="translate(240,355)">
+  <rect x="0" y="0" width="360" height="280" rx="30" fill="#13292A"/>
+  <rect x="24" y="22" width="312" height="236" rx="18" fill="#193E40" stroke="#7FE1D5" stroke-width="4"/>
+  <circle cx="180" cy="105" r="42" fill="#DAE6DE"/>
+  <rect x="118" y="150" width="124" height="66" rx="33" fill="#DAE6DE"/>
+  <path d="M70 64h40M250 64h40M180 25v28M180 214v28" stroke="#A2C9BE" stroke-width="6" stroke-linecap="round"/>
+  <path d="M24 22h40M296 22h40M24 22v40M336 22v40M24 218v40M24 258h40M336 218v40M296 258h40" stroke="#DDF980" stroke-width="5" stroke-linecap="round"/>
+  <rect x="257" y="28" width="63" height="28" rx="12" fill="#DDF980"/>
+  <text x="272" y="47" fill="#173536" font-family="Arial, sans-serif" font-size="15" font-weight="bold">LIVE</text>
+</g>
+<g transform="translate(1100,300)">
+  <rect x="0" y="0" width="320" height="520" rx="38" fill="#112728" stroke="#3A5A5C"/>
+  <text x="36" y="55" fill="#F3FAF2" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Student View</text>
+  <rect x="35" y="85" width="250" height="50" rx="14" fill="#1C3C3D"/>
+  <text x="58" y="117" fill="#CFE3D7" font-family="Arial, sans-serif" font-size="20">Exam in progress</text>
+  <rect x="35" y="165" width="250" height="180" rx="20" fill="#EFF6ED"/>
+  <rect x="35" y="375" width="250" height="30" rx="12" fill="#173536"/>
+  <rect x="35" y="426" width="250" height="18" rx="9" fill="#2A4B4C"/>
+  <rect x="35" y="456" width="200" height="18" rx="9" fill="#2A4B4C"/>
+  <rect x="35" y="486" width="180" height="18" rx="9" fill="#2A4B4C"/>
+  <circle cx="160" cy="255" r="40" fill="#173536" opacity="0.1"/>
+  <circle cx="160" cy="232" r="28" fill="#A8BFB7"/>
+  <rect x="118" y="264" width="84" height="42" rx="21" fill="#A8BFB7"/>
+</g>
+</svg>
