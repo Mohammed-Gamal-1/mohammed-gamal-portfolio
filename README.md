@@ -1,33 +1,39 @@
-# Mohammed Gamal — Portfolio (Approved)
+# Mohammed Gamal — AI Engineer Portfolio
 
-This repository contains the approved static portfolio website. The visual design and hero headline are unchanged.
+A personal portfolio presenting applied AI projects, machine learning work, robotics experiments, and graduation projects. Built as a lightweight responsive website using HTML, CSS, and JavaScript.
 
-## Deploy on Vercel using GitHub
+## Selected projects
 
-1. Create a new **public** GitHub repository in your own account (suggested name: `mohammed-gamal-portfolio`).
-2. Upload **the contents of this folder** to the repository root. The file `index.html` must be at the top level.
-3. In Vercel, select **Add New > Project**, and import the new GitHub repository.
-4. Choose **Framework Preset: Other**, **Root Directory: `./`**, **Build Command: leave unset**, **Output Directory: `.`**. Then deploy.
-5. Open the assigned `*.vercel.app` URL, verify all three project pages, certificate and CV links.
-6. Add that verified URL to the CV / LinkedIn profile after publishing.
+- **[ISH — Intelligent Spherical Home](projects/ish.html):** An intelligent robotics and smart-home project. My contribution focused on camera-based face detection and recognition. [Project repository](https://github.com/Mohammed-Gamal-1/ISH-Intelligent-Spherical-Home).
+- **[EduGen — AI Exam & Proctoring](projects/edugen.html):** An education platform with computer vision-based exam monitoring. My contribution focused on detecting suspicious movement, multiple people in frame, and camera absence to trigger warnings. [Team repository](https://github.com/MoTareq000/EduGen).
+- **[Medical Assistant Robot](projects/medical.html):** An academic prototype combining symptom-based machine learning experiments and an Arduino-powered robot, developed as part of a team. [Project report](assets/Medical_Assistant_Project_Documentation.pdf).
 
-## Local preview
+The website also includes a project archive, technical skills, education, a DEPI Generative AI Professional certificate, and a downloadable two-page CV.
+
+## Website stack
+
+- HTML5, CSS3, and vanilla JavaScript
+- Responsive layouts and lightweight animations with reduced-motion support
+- Static pages suitable for Vercel hosting; no backend or API keys required
+
+## Run locally
+
+Open `index.html` in a browser, or run a static HTTP server from the repository root:
 
 ```bash
 python -m http.server 8080
 ```
 
-Visit `http://localhost:8080/`. No backend or external API keys are required.
+Visit `http://localhost:8080/`.
 
-## Included pages
+## Deployment
 
-- `index.html`: About, selected work, project archive, certificate and contact.
-- `projects/ish.html` / `projects/edugen.html` / `projects/medical.html`: project case studies.
-- `assets/Mohammed_Gamal_CV.pdf`: two-page ATS-friendly CV.
-- `assets/Mohammed_Gamal_DEPI_Certificate.pdf`: supplied DEPI certificate.
-- `assets/edugen-proctoring.svg`: conceptual proctoring artwork.
-- `assets/med-robot-*.webp`: real prototype photos.
+Import this GitHub repository into Vercel using the **Other** framework preset, with the root directory set to `./`. No build command is necessary for this static site.
 
-**Note:** ISH's photo currently loads from its public GitHub raw image URL. If that remote photo fails to load, the CSS fallback is displayed.
+## Contact
 
-The site and CV contain contact details and the public certificate. Please ensure you wish to make them public before deploying.
+- [GitHub](https://github.com/Mohammed-Gamal-1)
+- [LinkedIn](https://www.linkedin.com/in/m0hammed-gamal/)
+- [Email](mailto:mohamed.gamal9ai@gmail.com)
+
+**Note:** EduGen's monitoring illustration is conceptual, not a screenshot or a performance measurement. Project descriptions distinguish personal contributions from team-wide functionality. The repository intentionally includes the public CV, certificate, and academic project report.

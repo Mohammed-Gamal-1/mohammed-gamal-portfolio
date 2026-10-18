@@ -40,11 +40,11 @@
 <rect x="760" y="428" width="265" height="32" rx="12" fill="#FFF4CF"/>
 <circle cx="782" cy="444" r="8" fill="#EAB308"/><text x="804" y="450" fill="#5B4F28" font-family="Arial, sans-serif" font-size="18">Another person detected</text>
 <rect x="760" y="573" width="170" height="30" rx="10" fill="#173536"/>
-<text x="785" y="594" fill="#F8FCF9" font-family="Arial, sans-serif" font-size="18" font-weight="bold">INTEGRITY SCORE</text>
+<text x="785" y="594" fill="#F8FCF9" font-family="Arial, sans-serif" font-size="18" font-weight="bold">ALERT STATUS</text>
 <path d="M785 660C825 590 930 590 970 660" stroke="url(#accent)" stroke-width="26" stroke-linecap="round"/>
 <circle cx="878" cy="660" r="12" fill="#F6FFF7" stroke="#173536" stroke-width="4"/>
-<text x="842" y="700" fill="#173536" font-family="Arial, sans-serif" font-size="48" font-weight="bold">82%</text>
-<text x="785" y="733" fill="#677A71" font-family="Arial, sans-serif" font-size="18">Flags are reviewed, not final proof.</text>
+<text x="790" y="700" fill="#173536" font-family="Arial, sans-serif" font-size="43" font-weight="bold">REVIEW</text>
+<text x="785" y="733" fill="#677A71" font-family="Arial, sans-serif" font-size="18">Alerts require instructor review.</text>
 <rect x="980" y="95" width="460" height="96" rx="24" fill="#E8F7D0"/>
 <text x="1020" y="138" fill="#173536" font-family="Arial, sans-serif" font-size="23" letter-spacing="3">MY ROLE / COMPUTER VISION PROCTORING</text>
 <text x="1020" y="170" fill="#567069" font-family="Arial, sans-serif" font-size="22">Movement analysis, presence checks, and warning logic</text>
